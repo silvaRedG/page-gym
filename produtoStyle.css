@@ -19,7 +19,7 @@ nav {
   overflow: hidden;
   -webkit-transform: translate(-50%, 40%);
   transform: translate(-0%, 0%);
-  background: #0243B9;
+  background: #055494;
   padding: 5px 30px;
 }
 
@@ -48,7 +48,7 @@ ul li {
 ul li a {
   color: #ffffff;
   text-decoration: none;
-  padding-left: 30px;
+  padding-left: 20px;
   font-weight: 400;
   transition: 0.5s;
 }
@@ -56,7 +56,8 @@ ul li a {
 ul li a:hover {
   color: #000;
   background: #ffffff;
-  border-radius: 10px;
+  border-radius: 20%;
+  padding-left: 5px;
 }
 
 ul li a:before {
@@ -93,6 +94,7 @@ ul li a:hover:before {
 
 ul li:nth-child(6n+1) a:before {
   background: #EEC643;
+  
 }
 
 ul li:nth-child(6n+2) a:before {
